@@ -1,0 +1,6 @@
+.main-error{
+  @apply text-center mt-10
+}
+.button{
+  @apply hover:text-slate-600
+}

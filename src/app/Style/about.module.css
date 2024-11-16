@@ -1,0 +1,9 @@
+.about-heading {
+	@apply text-2xl font-medium
+  text-slate-700
+  uppercase;
+    text-decoration: double underline;
+}
+.main {
+	@apply max-w-6xl mx-auto p-3 space-y-4;
+}

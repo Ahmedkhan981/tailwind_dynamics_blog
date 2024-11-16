@@ -1,0 +1,10 @@
+.menu-item {
+	@apply hover:text-amber-900;
+}
+.icon {
+	@apply text-2xl sm:hidden;
+}
+
+.title {
+	@apply uppercase hidden sm:inline text-sm;
+}

@@ -1,0 +1,41 @@
+/* MoviePage.module.scss */
+
+.container {
+	@apply w-full;
+}
+
+.movie-wrapper {
+	@apply p-4 md:pt-8 flex flex-col md:flex-row content-center max-w-6xl mx-auto md:space-x-6;
+}
+
+.movie-image {
+	@apply rounded-lg max-w-[500px] h-[315px] w-full mt-4 shadow-[5px_8px_80px_#464646]
+}
+
+.movie-details {
+	@apply p-2;
+}
+
+.movie-title {
+	@apply text-lg mb-3 font-extrabold;
+	text-decoration: double underline;
+}
+
+.movie-overview {
+	@apply text-lg mb-3;
+}
+
+.release-info,
+.rating-info {
+	@apply mb-3;
+}
+
+.label {
+	@apply font-semibold mr-1 underline;
+}
+.emptyIcon {
+	@apply text-gray-500;
+}
+.double-underline {
+	text-decoration: double underline;
+}

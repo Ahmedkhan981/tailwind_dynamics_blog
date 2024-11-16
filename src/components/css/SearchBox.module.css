@@ -1,0 +1,31 @@
+
+
+.formContainer {
+  @apply flex justify-between px-5 max-w-6xl mx-auto;
+}
+
+.input {
+  @apply w-full h-14 rounded-md placeholder-gray-500 outline-none bg-transparent flex-1;
+}
+
+.button {
+  @apply text-[#242424] 
+    hidden 
+    border border-[#475569] 
+    mt-2 
+    w-[120px] 
+    h-auto 
+    bg-transparent 
+    rounded-[32px] 
+    cursor-pointer 
+    hover:text-white 
+    hover:border-white 
+    hover:bg-[#3f4e5a] 
+    active:text-white 
+    active:border-white 
+    active:bg-[#394651] 
+    disabled:text-[#242424] 
+    md:flex 
+    md:justify-center 
+    md:items-center;
+}

@@ -1,0 +1,3 @@
+.div-theme {
+	@apply  dark:bg-gray-900 dark:text-gray-100 min-h-screen select-none transition-all duration-300;
+}

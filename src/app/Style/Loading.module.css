@@ -1,0 +1,7 @@
+.loading{
+  @apply flex justify-center items-center h-[100vh]
+  
+}
+.loading img{
+  @apply h-auto w-auto
+}

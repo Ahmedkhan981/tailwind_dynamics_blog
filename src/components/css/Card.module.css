@@ -1,0 +1,51 @@
+.grided-item {
+  @apply relative cursor-pointer rounded-lg border border-slate-400 m-2 transition-shadow duration-200 h-[320px];
+}
+
+.grided-item:hover {
+  @apply shadow-md;
+}
+
+.image-container {
+  @apply w-full h-auto;
+}
+
+.image-container img {
+  @apply w-full h-[200px] rounded-t-lg transition-opacity duration-300;
+}
+
+.image-container img:hover {
+  @apply opacity-75;
+}
+
+.content {
+  @apply p-2;
+}
+    .overview {
+      display: -webkit-box;
+      -webkit-line-clamp: 2; 
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      font-size: 1rem; 
+    }
+.title {
+  @apply text-lg font-bold truncate;
+}
+
+.details {
+  @apply flex items-center;
+}
+
+.date {
+  @apply mr-2;
+}
+
+.thumbs-up {
+  @apply h-5 ml-3 mr-1;
+}
+
+@media (min-width: 640px) {
+  .grided-item:hover {
+    @apply shadow-lg;
+  }
+}

@@ -1,0 +1,3 @@
+.icons{
+  @apply text-xl cursor-pointer hover:text-amber-500
+}

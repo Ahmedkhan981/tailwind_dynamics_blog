@@ -1,0 +1,8 @@
+.navbar-container {
+	@apply flex  bg-slate-600
+  p-4
+  lg:text-lg
+  gap-5
+  justify-center items-center 
+
+}
